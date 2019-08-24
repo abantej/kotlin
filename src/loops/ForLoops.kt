@@ -16,4 +16,16 @@ fun main(args: Array<String>) {
     for ((i, hero) in heroes.withIndex()) {
         println("Hero at $i is $hero")
     }
+
+    heroLevel = 0
+    for (level in 100..100000) {
+        heroLevel += level
+    }
+    println(heroLevel)
+
+    for (hero in heroes) {
+        if (hero.contains('a')) {
+            println(hero)
+        }
+    }
 }
