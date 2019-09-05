@@ -18,6 +18,12 @@ fun getSpawnTime(): Date {
     return Date()
 }
 
+object Map {
+    fun getPosition(): String {
+        return "nowhere"
+    }
+}
+
 fun main(args: Array<String>) {
     attackEnemy()
     attackEnemy("Axe")
